@@ -1,2 +1,4 @@
 # comit-exercices
-ComIT Exercises
+
+Name: Luis Filipe Alonso
+This repository is made for exercises
