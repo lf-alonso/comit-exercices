@@ -1,2 +1,2 @@
 // this is an expample of alert!
-alert("Dead end")
+alert("Hello world!")
