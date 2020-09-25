@@ -1,0 +1,11 @@
+"use strict"; 
+const birthMonth = 11;
+let nameFrist = "John";
+let nameLast = "Doe";
+let city;
+const age = 20;
+let cityNext;
+console.log('Name:', nameFrist, nameLast);
+console.log('City', city);
+console.log('Age:', age);
+console.log('Birth Month:', birthMonth);
