@@ -1,0 +1,61 @@
+header, h1{
+    font-family: cursive;
+    }
+.font-animation {
+    animation: whttoblk 10s infinite alternate-reverse;
+}
+@keyframes whttoblk {
+    from {color: white;}
+    to {color: black;}
+    }
+a {
+    position: absolute;
+    left: 0px;
+    transition: 0.5s;
+    padding: 20px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    }
+a:hover {
+        width: 90%;
+        font-weight: bold;
+    }
+p {
+    font-size: 18px;
+    font-family: cursive;
+    }
+.button1 {
+    background-color: goldenrod;
+    top: 45%;
+    }
+.button2 {
+    background-color: tomato;
+    top: 55%;
+    }
+.move1 {
+    width: 250px;
+    animation: mover 5s infinite alternate-reverse;
+    animation-timing-function: ease-in-out;
+    position: relative;
+    }
+@keyframes mover {
+    from {left: 10%;}
+    to {left: 80%;}
+    }
+body {
+    animation: bg 10s infinite alternate-reverse;
+    }
+@keyframes bg {
+    from {background-color: black;}
+    to {background-color: white;}
+    }
+.form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-direction: column;
+    align-items: stretch;
+    }
