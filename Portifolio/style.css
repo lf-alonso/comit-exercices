@@ -7,7 +7,7 @@ header, h1{
 @keyframes whttoblk {
     from {color: white;}
     to {color: black;}
-}
+    }
 a {
     position: absolute;
     left: 0px;
@@ -22,7 +22,7 @@ a {
 a:hover {
         width: 90%;
         font-weight: bold;
-}
+    }
 p {
     font-size: 18px;
     font-family: cursive;
@@ -30,11 +30,11 @@ p {
 .button1 {
     background-color: goldenrod;
     top: 45%;
-}
+    }
 .button2 {
     background-color: tomato;
     top: 55%;
-}
+    }
 .move1 {
     width: 250px;
     animation: mover 5s infinite alternate-reverse;
@@ -44,18 +44,18 @@ p {
 @keyframes mover {
     from {left: 10%;}
     to {left: 80%;}
-}
+    }
 body {
     animation: bg 10s infinite alternate-reverse;
-}
+    }
 @keyframes bg {
     from {background-color: black;}
     to {background-color: white;}
-}
+    }
 .form-inline {  
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     flex-direction: column;
     align-items: stretch;
-}
+    }
